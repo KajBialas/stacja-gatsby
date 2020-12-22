@@ -2,21 +2,16 @@ import React from 'react';
 import Navigation from '../components/navigation';
 import Helmet from 'react-helmet';
 
-
-function IndexPage() {
+function About() {
   return (
     <div>
       <Helmet>
-        <title>Strona startowa</title>
+        <title>Podstrona o nas</title>
       </Helmet>
-
-      <Navigation/>
-      Strona główna
-      <div>
-        Treść strony
-      </div>
+      <Navigation />
+      About
     </div>
   )
 }
 
-export default IndexPage
+export default About;
